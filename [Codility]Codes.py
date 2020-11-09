@@ -780,6 +780,14 @@ def solution(N, M):
                 chocolates += [((x * M + abs((chocolates[len(chocolates)-1] + M - N))) % N) for x in list(range((N // M)+1))]
         return len(chocolates) - 1
 
+# Lesson 14: MinMaxDivision
+A = [2,1,5,1,2,2,2]
+
+
+
+
+
+
 
 # Lesson 15: AbsDistinct
 A = [-5, -3, -1, 0, 3, 6] # 5
